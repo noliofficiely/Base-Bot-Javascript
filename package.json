@@ -1,0 +1,20 @@
+{
+  "name": "s-studio-v1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Base Bot javaScript"],
+  "author": "S-Studio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "glob": "^11.0.3",
+    "gradient-string": "^1.2.0",
+    "mysql2": "^3.14.3"
+  }
+}

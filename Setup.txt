@@ -1,0 +1,31 @@
+      ::::::::                          ::::::::   :::::::::::      :::    :::       :::::::::       :::::::::::       ::::::::
+    :+:    :+:                        :+:    :+:      :+:          :+:    :+:       :+:    :+:          :+:          :+:    :+:
+   +:+                               +:+             +:+          +:+    +:+       +:+    +:+          +:+          +:+    +:+
+  +#++:++#++      +#++:++#++:++     +#++:++#++      +#+          +#+    +:+       +#+    +:+          +#+          +#+    +:+
+        +#+                               +#+      +#+          +#+    +#+       +#+    +#+          +#+          +#+    +#+
+#+#    #+#                        #+#    #+#      #+#          #+#    #+#       #+#    #+#          #+#          #+#    #+#
+########                          ########       ###           ########        #########       ###########       ########
+
+Avant de lancer votre bot, il y a quelques prérequis :
+
+1. Dans le fichier .env, remplacez le token du bot.
+
+2. Dans le fichier main.js, remplacez :
+client.assets = {
+  footer: `Votre footer d'embed`,
+  color: `Votre couleur d'embed`,
+  title: `Votre titre d'embed`,
+  // Etc. Ajoutez autant de paramètres que vous voulez
+} 
+par vos informations (la couleur doit être au format hexadécimal, par exemple #ffffff).
+
+3. Dans le fichier databaseLoader.js, remplacez :
+    host: "",
+    user: "",
+    password: "",
+    database: "",
+    port: 3306,
+
+par les informations de votre base de données MySQL.
+
+PS : la base de données n’est pas obligatoire ; si vous n’en avez pas, inutile de vous préoccuper de cette partie.
