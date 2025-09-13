@@ -20,12 +20,12 @@ client.utils = {
 }
 
 client.assets = {
-    footer: `Votre footer d'embed`,
-    color: `Votre couleur d'embed`,
-    title: `Votre titre d'embed`
+    footer: `bot`,
+    color: `red`,
+    title: `C-PROTECT`
     // ETC... RAJOUTEZ AUTANT DE PARAMETRES QUE VOUS VOULEZ
 }
 
-client.utils.SetStatus(client)
+client.utils.SetStatus(MTQxNjE1NTU5NjkzNTI2NjM2Ng.GljSqf.izwZvxMhd3rPHfwY3tQJ3U-fVJescz2aX65ORI)
 
-client.login(process.env.TOKEN); 
+client.login(MTQxNjE1NTU5NjkzNTI2NjM2Ng.GljSqf.izwZvxMhd3rPHfwY3tQJ3U-fVJescz2aX65ORI); 
