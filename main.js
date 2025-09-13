@@ -19,13 +19,13 @@ client.utils = {
     SetStatus: require('./src/Functions/StatusClient.js')
 }
 
-client.assets = {
-    footer: `Votre footer d'embed`,
-    color: `Votre couleur d'embed`,
-    title: `Votre titre d'embed`
+client.assets = {bot
+    footer: `bot`,
+    color: `red`,
+    title: `C-PROTECT`
     // ETC... RAJOUTEZ AUTANT DE PARAMETRES QUE VOUS VOULEZ
 }
 
 client.utils.SetStatus(client)
 
-client.login(process.env.TOKEN); 
+client.login(MTQxNjE1NTU5NjkzNTI2NjM2Ng.GljSqf.izwZvxMhd3rPHfwY3tQJ3U-fVJescz2aX65ORI); 
