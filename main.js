@@ -20,9 +20,9 @@ client.utils = {
 }
 
 client.assets = {
-    footer: `Votre footer d'embed`,
-    color: `Votre couleur d'embed`,
-    title: `Votre titre d'embed`
+    footer: `bot`,
+    color: `red`,
+    title: `bot`
     // ETC... RAJOUTEZ AUTANT DE PARAMETRES QUE VOUS VOULEZ
 }
 
